@@ -1,0 +1,26 @@
+{
+  "name": "xwing-data-module",
+  "version": "1.0.0",
+  "description": "xwing-data packaged as modules",
+  "scripts": {
+    "test": "jest src",
+    "build": "webpack --config webpack.config.js"
+  },
+  "main": "lib/xwing-data-module.js",
+  "repository": "git@github.com:stevegood/xwing-data-module.git",
+  "author": "Steve Good <sgood@lanctr.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-jest": "^20.0.3",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "file-loader": "^0.11.2",
+    "jest": "^20.0.4",
+    "regenerator-runtime": "^0.10.5",
+    "release-it": "^2.8.0",
+    "webpack": "^3.1.0"
+  },
+  "dependencies": {}
+}
