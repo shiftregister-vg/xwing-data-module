@@ -7,3 +7,11 @@ cache:
 script:
 - yarn test
 - yarn build
+deploy:
+  provider: npm
+  email: sgood@lanctr.com
+  api_key:
+    secure: MVWAqphY+eQNWUNatjEOoezJBdSjuEGJA4icnOzInUinZBFLymQGYW84FsOngaKLQ1sXScw6nL3su5Pu0JCpCTdHiPyYnZAOjj4DOLDwn3e1bEW3i127W58JyKrMWiUvoysXXak93N6utY8RiLzJiwc1TF1NzinqTQf8pwxKH/vCxE3RqIc0n9Nk63Bay4wO80k3+fx4exd0Iq2TzMePOZ5sVhcdXR0pq1v+lIJCMrjDDjYuKr9AwRQChfmwRCRZt7ekCLwK5gWtEAa/kvpjZNARZKRUqQ1OmKNMkpLfTjYRzd49wOJtKWV2Y35MgrI4OMzsL/+Kva/kMe2TQKQ60FSvqYrhnrjr2yTnWKDwfXdw78/D8eJNeD7KBCvsQtzmBzzD16YLJo02C3Mn0W4LZ/YwIxV+zn4LdcVin06V+RGb9BFd3HSGQhVO6ejYdUCzk/zi1+sRnT7vR76xYmx2aQQWJaiDbCZzp20mzCIMv0G6PSMrNgguckf/YaH7k+s6scUt+AXqYse5+lsEMWgHqU2kPvYahiV2caXeRl4I+TdPOQy3VjiNibNRJSzotzUajNt5zPwDdWNmWx+jJfuiO2UTY/7JD8woVavI6SKctjSrgCtyfbYRwO3Xpya0TvmlkE7GqNY4XkIzL88jaPk0jZ+piwakudSeDhqbkpFwowc=
+  on:
+    tags: true
+    repo: stevegood/xwing-data-module
