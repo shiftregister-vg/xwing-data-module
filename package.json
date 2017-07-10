@@ -1,13 +1,14 @@
 {
   "name": "xwing-data-module",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "xwing-data packaged as modules",
   "files": [
     "lib/xwing-data-module.js"
   ],
   "scripts": {
     "test": "jest src",
-    "build": "webpack --config webpack.config.js"
+    "fix-data": "babel-node fix-xwing-data.js",
+    "build": "webpack -p --config webpack.config.js"
   },
   "main": "lib/xwing-data-module.js",
   "repository": "git@github.com:stevegood/xwing-data-module.git",

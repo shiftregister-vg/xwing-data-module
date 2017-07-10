@@ -1,12 +1,13 @@
 language: node_js
 node_js:
-- 8
+  - 8
 cache:
   directories:
-  - node_modules
+    - node_modules
 script:
-- yarn test
-- yarn build
+  - yarn fix-data
+  - yarn test
+  - yarn build
 deploy:
   provider: npm
   email: sgood@lanctr.com
