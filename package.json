@@ -1,16 +1,17 @@
 {
   "name": "xwing-data-module",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "xwing-data packaged as modules",
   "files": [
-    "lib/xwing-data-module.js"
+    "src/index.js",
+    "xwing-data/data"
   ],
   "scripts": {
     "test": "jest src",
     "fix-data": "babel-node fix-xwing-data.js",
     "build": "webpack --config webpack.config.js"
   },
-  "main": "lib/xwing-data-module.js",
+  "main": "src/index.js",
   "repository": "git@github.com:stevegood/xwing-data-module.git",
   "author": "Steve Good <sgood@lanctr.com>",
   "license": "MIT",

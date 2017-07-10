@@ -7,7 +7,6 @@ cache:
 script:
   - yarn fix-data
   - yarn test
-  - yarn build
 deploy:
   provider: npm
   email: sgood@lanctr.com
