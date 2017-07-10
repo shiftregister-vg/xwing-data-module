@@ -1,12 +1,12 @@
-import conditions from '../xwing-data/data/conditions.js'
-import damageDeckCore from '../xwing-data/data/damage-deck-core.js'
-import damageDeckCoreTfa from '../xwing-data/data/damage-deck-core-tfa.js'
-import damageDeckRebelTransport from '../xwing-data/data/damage-deck-rebel-transport.js'
-import pilots from '../xwing-data/data/pilots.js'
-import referenceCards from '../xwing-data/data/reference-cards.js'
-import ships from '../xwing-data/data/ships.js'
-import sources from '../xwing-data/data/sources.js'
-import upgrades from '../xwing-data/data/upgrades.js'
+const conditions = require('../xwing-data/data/conditions.js')
+const damageDeckCore = require('../xwing-data/data/damage-deck-core.js')
+const damageDeckCoreTfa = require('../xwing-data/data/damage-deck-core-tfa.js')
+const damageDeckRebelTransport = require('../xwing-data/data/damage-deck-rebel-transport.js')
+const pilots = require('../xwing-data/data/pilots.js')
+const referenceCards = require('../xwing-data/data/reference-cards.js')
+const ships = require('../xwing-data/data/ships.js')
+const sources = require('../xwing-data/data/sources.js')
+const upgrades = require('../xwing-data/data/upgrades.js')
 
 const data = {
   conditions,
@@ -20,8 +20,7 @@ const data = {
   upgrades
 }
 
-export default data
-export {
+module.exports = {
   conditions,
   damageDeckCore,
   damageDeckCoreTfa,

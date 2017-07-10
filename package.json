@@ -1,6 +1,6 @@
 {
   "name": "xwing-data-module",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "xwing-data packaged as modules",
   "files": [
     "src/index.js",
@@ -9,7 +9,9 @@
   "scripts": {
     "test": "jest src",
     "fix-data": "babel-node fix-xwing-data.js",
-    "build": "webpack --config webpack.config.js"
+    "minor": "release-it minor",
+    "major": "release-it major",
+    "patch": "release-it patch"
   },
   "main": "src/index.js",
   "repository": "git@github.com:stevegood/xwing-data-module.git",
@@ -24,8 +26,7 @@
     "file-loader": "^0.11.2",
     "jest": "^20.0.4",
     "regenerator-runtime": "^0.10.5",
-    "release-it": "^2.8.0",
-    "webpack": "^3.1.0"
+    "release-it": "^2.8.0"
   },
   "dependencies": {}
 }
