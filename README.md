@@ -55,3 +55,7 @@ _or_
 import { ships } from 'xwing-data-module'
 ```
 
+## Projects using the xwing-data-module package
+
+- [Tython](https://github.com/stevegood/tython): Backend application for [Deep Core](https://github.com/stevegood/deep_core)
+- (Add your project via a PR or submit an issue)
