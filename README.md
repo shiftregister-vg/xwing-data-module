@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/stevegood/xwing-data-module.svg?branch=master)](https://travis-ci.org/stevegood/xwing-data-module)
 [![npm version](https://badge.fury.io/js/xwing-data-module.svg)](https://badge.fury.io/js/xwing-data-module)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/855a3f9793b346f69d3dbf4dcfb0e23f)](https://www.codacy.com/app/sgood/xwing-data-module?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=stevegood/xwing-data-module&amp;utm_campaign=Badge_Grade)
 
 # xwing-data-module
 xwing-data packaged as modules
