@@ -15,3 +15,5 @@ deploy:
   on:
     tags: true
     repo: stevegood/xwing-data-module
+notifications:
+    slack: extrememoderation:VJtsYtiLpOpJy9Krlq8rZpxv
