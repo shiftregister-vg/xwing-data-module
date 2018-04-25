@@ -1,6 +1,6 @@
 {
   "name": "xwing-data-module",
-  "version": "0.63.2",
+  "version": "0.63.3",
   "description": "xwing-data packaged as modules",
   "files": [
     "src/index.js",
